@@ -518,7 +518,7 @@ button.main-button:hover {
   }
   .welcome-area .header-text h1 {
     text-align: center;
-    color: #fff;
+    color: #000;
     margin-bottom: 15px;
   }
   .welcome-area .header-text h1 span {
@@ -565,11 +565,11 @@ button.main-button:hover {
     margin-bottom: 30px;
   }
   .welcome-area .header-text h1 span {
-    color: #fff;
+    color: #000;
   }
   .welcome-area .header-text p {
     text-align: center;
-    color: #fff;
+    color: #000;
     font-size: 14px;
     line-height: 22px;
     margin-bottom: 40px;
