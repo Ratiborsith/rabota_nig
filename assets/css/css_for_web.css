@@ -929,7 +929,7 @@ button.main-button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/banner-bg.png);
+  background-image: url(../images/team-pict.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; 
