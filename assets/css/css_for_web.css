@@ -923,20 +923,6 @@ button.main-button:hover {
   }
 }
 
-.team-area {
-  overflow: hidden;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url(../images/team-pict.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover; 
-  height: 100vh;
-}
-
-
 .team-item {
   background: #fff;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
