@@ -132,3 +132,26 @@
 
 
 })(window.jQuery);
+
+btnOrder.onclick = function() {
+    const form = document.getElementById('form-order')
+    const fio = form.fio.value
+    const phone = form.phone.value
+    const who_are_you = form.who_are_you.value
+    const email = form.email.value
+    const tripInfo = {
+        fio: fio,
+        phone: phone,
+        who_are_you,
+        email
+    }
+    const tripInfoJSON = JSON.stringify(tripInfo)
+    // console.log(tripInfoJSON)
+    fetch('http://localhost:3000').then(function(response) {
+        if (response.ok) {
+            return response.text()
+        }
+    }).then(function(text) {
+        console.log(text)
+    })
+}
