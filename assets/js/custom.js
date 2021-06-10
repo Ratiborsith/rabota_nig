@@ -132,32 +132,3 @@
 
 
 })(window.jQuery);
-
-let startButton = document.getElementById('start-btn')
-let menuBtn = document.querySelector('.bi-menu-down')
-let menuList = document.querySelector('.menu-list')
-
-const btnOrder = document.getElementById('btn-order')
-
-btnOrder.onclick = function() {
-    const form = document.getElementById('form-order')
-    const fio = form.fio.value
-    const phone = form.phone.value
-    const who_are_you = form.who_are_you.value
-    const email = form.email.value
-    const tripInfo = {
-        fio: fio,
-        phone: phone,
-        who_are_you,
-        email
-    }
-    const tripInfoJSON = JSON.stringify(tripInfo)
-    // console.log(tripInfoJSON)
-    fetch('http://localhost:3000').then(function(response) {
-        if (response.ok) {
-            return response.text()
-        }
-    }).then(function(text) {
-        console.log(text)
-    })
-}
