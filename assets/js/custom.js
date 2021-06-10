@@ -137,10 +137,6 @@ let startButton = document.getElementById('start-btn')
 let menuBtn = document.querySelector('.bi-menu-down')
 let menuList = document.querySelector('.menu-list')
 
-menuBtn.onclick = function() {
-    menuList.classList.toggle('show')
-}
-
 document.getElementById('promo-link').addEventListener('click', function(event) {
     linkHandler(event, '.promo')
 })
