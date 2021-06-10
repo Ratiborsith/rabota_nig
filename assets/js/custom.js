@@ -137,13 +137,6 @@ let startButton = document.getElementById('start-btn')
 let menuBtn = document.querySelector('.bi-menu-down')
 let menuList = document.querySelector('.menu-list')
 
-startButton.onclick = function() {
-    window.scrollTo({
-        top: window.innerHeight,
-        behavior: 'smooth'
-    })
-}
-
 menuBtn.onclick = function() {
     menuList.classList.toggle('show')
 }
